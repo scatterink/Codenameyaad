@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="description" content="">
+  
+ 
+    
+
+  <title>YAAD</title>
+  <script src="assets/icons/feather.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/dropdown.js"></script>
+ 
+ 
+                <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+      <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+<link href="assets/fontaswesome/css/fontawesome.min.css" rel="stylesheet"/>
+   <link href="assets/fontaswesome/css/regular.min.css" rel="stylesheet"/>
+   <link href="assets/fontaswesome/css/solid.min.css" rel="stylesheet"/>
+<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/master.css" rel="stylesheet">
+  </head>
+  
+   
+  <body>
+   
+                        <!-- ============================================================== -->
+                        <!-- NAV BAR  COMPANY-NAME SEARCH SIGN-OUT-->
+                        <!-- ============================================================== --> 
+
+   
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <ul class="navbar-nav px-3">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#"><span data-feather="power"></span> Sign out</a>
+    </li>
+  </ul>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">
+              <i data-feather="monitor"></i>
+              Dashboard <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="sales.html">
+              <span data-feather="tag"></span>
+              Sales <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="inventory.html">
+              <span data-feather="package"></span>
+              Inventory
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customer.html">
+              <span data-feather="users"></span>
+              Customer
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="bank.html">
+              <span data-feather="home"></span>
+              Bank
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="accounting.html">
+              <span data-feather="book"></span>
+              Accounting
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vendor.html">
+              <span data-feather="truck"></span>
+              Vendor
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="employees.html">
+              <span data-feather="grid"></span>
+              Employees
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reports.html">
+              <span data-feather="bar-chart-2"></span>
+              Reports
+            </a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="preference.html">
+              <span data-feather="settings"></span>
+              Preference
+            </a>
+          </li>
+                <!------Placeholders-------->
+            <li class="nav-item">
+            <a class="nav-link" href="">
+            </a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+            </a>
+          </li>
+          
+        </ul>
+         
+          <!------HEADER STORAGE AND CONNECTIONS-------->
+
+ <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <span>Storage & Connection</span>
+          <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
+            <span data-feather="plus-circle"></span>
+          </a>
+        </h6>
+        
+         <!-----Storage and connections---->
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#">
+            <btn class="active" data-toggle="tooltip" data-placement="top" title="Database"><span data-feather="database"></span></btn> <!-----DATA BASE---->
+             <btn data-toggle="tooltip" data-placement="top" title="Cloud Storage"><span data-feather="cloud"></span></btn>                    <!-----back up cloud---->
+            <btn data-toggle="tooltip" data-placement="top" title="Disk Storage"><span data-feather="hard-drive"></span></btn>                <!-----storages space etc local---->
+            <btn data-toggle="tooltip" data-placement="top" title="Server"><span data-feather="server"></span></btn>                     <!-----Multiple users - server performance---->   
+             <btn data-toggle="tooltip" data-placement="top" title="Internet"><span data-feather="globe"></span></btn>                     <!-----Connection over Internet Multiple location---->
+             </a>
+          </li>
+          
+          <!-----YARD ICONS---->
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#">
+             <btn data-toggle="tooltip" data-placement="top" title="Info"> <span data-feather="info"></span></btn>  <!-----LICENSE ETC---->
+             <btn data-toggle="tooltip" data-placement="top" title="Help"> <span data-feather="help-circle"></span></btn> <!-----HELP TICKET ETC---->
+            </a>
+          </li>
+          
+              <!-----System Check Alert---->
+          <li class="nav-item">
+            <a class="nav-link text-center" href="#">
+                <btn data-toggle="tooltip" data-placement="top" title="Alert"> <span data-feather="alert-triangle"></span></btn>  <!-----error Alert---->
+             </a>
+          </li>
+          
+         </ul>
+      </div>
+    </nav>
+    
+                        <!-- ============================================================== -->
+                        <!-- Main Bar -MAIN HEADER -- BUTTONS AND DROP DOWN-->
+                        <!-- ============================================================== --> 
+                        
+     <!-- Main header Drop Down Button-->
+
+  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Reconciliation</h1>
+        
+ 
+        
+         <!-- share export-->
+                     
+                       <!-- share export-->
+                     
+                     
+                      
+        <div class="btn-toolbar mb-2 mb-md-0">         
+         <div class="btn-group mr-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary">Mark All</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Unmark All</button>
+          </div>
+                      
+                    <!--  Space-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+                          </button>
+           
+          </div> 
+          
+                <!--  Space-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+                          </button>
+           
+          </div> 
+          
+          
+                <!--  Space-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+                          </button>
+           
+          </div> 
+         
+          
+                         <!--  Space-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+                          </button>
+           
+          </div> 
+                   
+                   
+                   
+                    <!--  New Button-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-primary" href="#">
+                  Reconcile Now
+            </button>
+           
+          </div> 
+          
+                 <!--  Space-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+                          </button>
+           
+          </div> 
+          
+           
+                    <!--  Leave Button-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-secondary" href="#">
+                Leave
+            </button>
+           
+          </div> 
+          
+                 <!--  Space-->
+          
+         <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light">
+                          </button>
+           
+          </div> 
+          
+          <!--  Save Button-->
+          <!-------------------Not needed ----------------
+          
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-sm btn-btn-light"><span data-feather="save"></span> Save</button>
+  
+   <div class="btn-group mr-2 dropdown">
+     <button type="button" class="btn btn-sm btn-btn-light dropdown-toggle" data-toggle="dropdown"></button>
+             <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><span data-feather="x-circle"></span> Save & Print</a>
+               <a class="dropdown-item" href="#"><span data-feather="x-circle"></span> Save & Close</a> 
+            </div>
+
+          </div>
+            </div>  
+          
+                  
+           !--  Cancel Button--
+          
+          <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+              <span data-feather="copy"></span>
+              Cancel
+            </button>
+           
+          </div> 
+          
+          ------------------------------->
+           
+           <!--  Attached file Button-->
+           
+          <div class="button">
+            <button type="button" class="btn btn-sm btn-btn-light" href="#">
+              <span data-feather="paperclip"></span>
+              Attach File
+            </button>
+           
+          </div>
+                    
+          
+          <!-- Accounting DNA Drop Down Button-->
+          
+                    <div class="btn-group mr-2 dropdown">
+            <button type="button" class="btn btn-sm btn-btn-light dropdown-toggle" data-toggle="dropdown"><span data-feather="crop"></span> </button>
+             <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><span data-feather="cpu"></span> Memorize</a>
+                <a class="dropdown-item" href="#"><span data-feather="file-text"></span> Template</a>
+                           <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><span data-feather="archive"></span> Document Centre</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><span data-feather="share"></span> upload</a>
+            </div>
+
+          </div>  
+    
+                        
+                        <!-- User Drop Down Button-->
+                      
+
+          <div class="dropdown">
+            <button type="button" class="btn btn-sm btn-btn-light dropdown-toggle" data-toggle="dropdown">
+              <span data-feather="grid"></span>
+              John Doe
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><span data-feather="settings"></span> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><span data-feather="bell"></span> Notification</a>
+                  <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><span data-feather="message-square"></span> Message</a>
+              <a class="dropdown-item" href="#"><span data-feather="log-out"></span> Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+                      
+                          <!-- ============================================================== -->
+                        <!------------------- Journal Info------------->
+                        <!-- ============================================================== --> 
+                         
+ <div class="container">
+  <div class="row">
+      <div class="col"><b>Period</b> 2020/12</div>
+    <div class="col text-right"><input type="checkbox" class="custom-control-input" id="customCheck1">
+  <label class="custom-control-label" for="customCheck1">This period entries</label></div>
+     </div></div>
+                         
+                   
+         
+                       
+  <div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <h6>Payments</h6>
+    </div>
+    <div class="col text-center">
+      <h6>Deposits</h6>
+    </div>
+  </div>
+      </div>
+                        
+                     
+      
+
+
+                        <!-- ============================================================== -->
+                        <!------------------- TABLE------------->
+                        <!-- ============================================================== --> 
+     
+   <div class="row">
+   
+               <!---------Debit----------->
+                
+  <div class="col text-left">
+         
+          <div class="widget-content nopadding">
+            <table class="table table-bordered table-striped with-check">
+              <thead>
+                <tr>
+                  <th><i class="icon-resize-vertical"></i></th>
+                  <th>Date</th>
+                  <th>Cheque No.</th>
+                  <th>Payee</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 4.0</td>
+                  <td>Win 95+</td>
+                  <td class="center"> 4</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 5.0</td>
+                  <td>Win 95+</td>
+                  <td class="center">5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 4.0</td>
+                  <td>Win 95+</td>
+                  <td class="center"> 4</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 5.0</td>
+                  <td>Win 95+</td>
+                  <td class="center">5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 5.5</td>
+                  <td>Win 95+</td>
+                  <td class="center">5.5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 6</td>
+                  <td>Win 98+</td>
+                  <td class="center">6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+           </div>
+           
+          <!---------Credit----------->
+          
+          <div class="col text-left">
+          <div class="widget-content nopadding">
+            <table class="table table-bordered table-striped with-check">
+              <thead>
+                <tr>
+                  <th><i class="icon-resize-vertical"></i></th>
+                   <th>Date</th>
+                  <th>Ref. No.</th>
+                  <th>Details</th>
+                  <th>Amount</th
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 4.0</td>
+                  <td>Win 95+</td>
+                  <td class="center"> 4</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 5.0</td>
+                  <td>Win 95+</td>
+                  <td class="center">5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 4.0</td>
+                  <td>Win 95+</td>
+                  <td class="center"> 4</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 5.0</td>
+                  <td>Win 95+</td>
+                  <td class="center">5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 5.5</td>
+                  <td>Win 95+</td>
+                  <td class="center">5.5</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Trident</td>
+                  <td>Internet
+                    Explorer 6</td>
+                  <td>Win 98+</td>
+                  <td class="center">6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+         </div>
+     
+          
+        </div>
+        
+         
+          
+  
+          
+                <!-- ============================================================== -->
+                <!------------ RECONCILIATION---->
+                <!-- ============================================================== --> 
+          
+          <div class="container border-top border-bottom">
+  <div class="row">
+    <div class="col text-Left">
+      <h6>Items you have marked cleared</h6>
+      <div>10  <b>Deposits</b>  $50,000.98</div>
+      <div>10  <b>Payment</b>  $50,000.98</div>
+    </div>
+    <div class="col text-right">
+      <div><b>Beginning balance</b>  $50,000.98</div>
+      <div><b>Cleared balance</b>  $50,000.98</div>
+      <div><b>Ending Balance</b>  $50,000.98</div>
+      <div><b>Statement balance </b>  $50,000.98</div>
+      <div><b>Variance</b>  $50,000.98</div>
+    </div>
+  </div>
+      </div>
+             
+           
+             
+                  
+        
+        
+      
+      
+      
+      
+    </main>
+  </div>
+</div>
+<script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/js/popper/popper.min.js"></script>
+     
+      <script>window.jQuery || document.write('<script src="assets/jquery/jquery.min.js"><\/script>')</script>
+       <script src="assets/js/bootsrap.min.js"></script>
+        <script src="assets/icons/feather.js"></script>
+         <script src="assets/js/bootstrap.bundle.min.js"></script> 
+         <script src="assets/js/dropdown.js"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="dashboard.js"></script></body>
+          <script>
+      feather.replace()
+    </script>
+</html>  
+   
+   
+   
+   
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/jquery/jquery.min.js"></script>
+        <script src="assets/js/popper/popper.min.js"></script>
+    <script src="assets/js/bootsrap.min.js"></script>
+    
+
+
+</body>
+</html>
+  
+   
+           <!-- JAVA SCRIPT FOR CLOCK ON SIDE BAR - WRITTEN BY RUNAR STOCK FLOW - REMEMBER TO COMPENSATE IF THIS GOES GOOD -->
+   <script type="text/javascript">
+    var clockElement = document.getElementById('clock');
+
+    function clock() {
+        var date = new Date();
+
+        // Replace '500px' below with where you want the format to change.
+        if (window.matchMedia('(max-width:500px)').matches) {
+            // Use this format for windows with a width up to the value above.
+            clockElement.textContent = date.toLocaleString();
+        } else {
+            // While this format will be used for larger windows.
+            clockElement.textContent = date.toString();
+        }
+    }
+
+    setInterval(clock, 1000);
+</script>   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
